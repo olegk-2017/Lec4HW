@@ -10,44 +10,54 @@
         android:id="@+id/floatingActionButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="32dp"
         android:clickable="true"
+        android:contentDescription="@string/sms"
         android:src="@drawable/ic_sms"
-        tools:layout_editor_absoluteX="23dp"
-        tools:layout_editor_absoluteY="659dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.983"
+         />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floatingActionButton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:clickable="true"
+        android:layout_marginStart="24dp"
+        android:contentDescription="@string/brauser"
         android:src="@drawable/ic_brouser"
-        tools:layout_editor_absoluteX="101dp"
-        tools:layout_editor_absoluteY="664dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/floatingActionButton"
+        app:layout_constraintStart_toEndOf="@+id/floatingActionButton" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floatingActionButton3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:clickable="true"
+        android:layout_marginStart="24dp"
+        android:contentDescription="@string/map"
         android:src="@drawable/ic_map"
-        tools:layout_editor_absoluteX="175dp"
-        tools:layout_editor_absoluteY="663dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/floatingActionButton2"
+        app:layout_constraintStart_toEndOf="@+id/floatingActionButton2" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floatingActionButton4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:clickable="true"
+        android:layout_marginStart="24dp"
+        android:contentDescription="@string/call"
         android:src="@drawable/ic_call"
-        tools:layout_editor_absoluteX="252dp"
-        tools:layout_editor_absoluteY="664dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/floatingActionButton3"
+        app:layout_constraintStart_toEndOf="@+id/floatingActionButton3" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floatingActionButton5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:clickable="true"
+        android:layout_marginStart="24dp"
+        android:contentDescription="@string/email"
         android:src="@drawable/ic_email"
-        tools:layout_editor_absoluteX="334dp"
-        tools:layout_editor_absoluteY="664dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/floatingActionButton4"
+        app:layout_constraintStart_toEndOf="@+id/floatingActionButton4" />
 </androidx.constraintlayout.widget.ConstraintLayout>

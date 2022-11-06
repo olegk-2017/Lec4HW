@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Lec4HW</string>
+    <string name="brauser">Brauser</string>
+    <string name="map">Map</string>
+    <string name="call">Call</string>
+    <string name="email">Email</string>
+    <string name="sms">SMS</string>
 </resources>
